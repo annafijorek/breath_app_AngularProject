@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://annafijorek.github.io/breath_app_AngularProject',
+  baseHref: 'https://annafijorek.github.io/breath_app_AngularProject/',
   locale: undefined,
   routes: [
   {
@@ -12,9 +12,9 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 544, hash: 'f4a786f7b4fb51a0aac8c795df0ab45ddf46051420f86e54cfda9c846da9d15c', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1057, hash: 'f10a045f1a0ba353f426a34811fd2eaa783532a64e0c7b104ba3b6c972a43349', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 4257, hash: '09a780e08b359977b40de3f0bd286cffd474db92d06e0633e6367b4674f982de', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 545, hash: '42c3066b452eb466b66985ec8f5ae0cc5330a70e93f0f01ddc4efbc947b8b641', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1058, hash: '6048116689c739126f3559e49221445350b2488f8ecccb66046642f6b5718d0f', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 4258, hash: '2476ae1b2a471d53d67868d5e5c827198e2ef0e61f9a45e6354fccce0e052af4', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>Breath</title>
-  <base href="https://annafijorek.github.io/breath_app_AngularProject">
+  <base href="https://annafijorek.github.io/breath_app_AngularProject/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-5INURTSO.css"></head>
