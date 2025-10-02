@@ -12,3 +12,5 @@ Technical Details:
 Framework: Angular
 Language: TypeScript
 Styling: CSS with flexbox and grid layout
+
+demo: ![Breath Demo](app_demo.gif)
