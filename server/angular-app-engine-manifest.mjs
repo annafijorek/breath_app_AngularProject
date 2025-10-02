@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://github.com/annafijorek/breath_app_AngularProject',
+  basePath: 'https://annafijorek.github.io/breath_app_AngularProject',
   supportedLocales: {
   "en-US": ""
 },
