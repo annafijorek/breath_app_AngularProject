@@ -1,0 +1,123 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 100vh;
+  text-align: center;
+  background: #f3e8ff;
+  font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.sidebar button {
+  width: 120px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.overlay {
+  position: fixed;      
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;          
+}
+
+.countdown {
+  font-size: 6em;
+  color: #f3e8ff;
+  font-weight: bold;
+}
+
+
+.breath-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #d8b4fc;
+  border-radius: 50%;
+  background: lightblue;
+  transition: all 4s ease-in-out;
+  transform: scale(1); 
+}
+.rest { 
+  transform: scale(1); 
+} 
+.inhale {
+  transform: scale(1.5);
+  background: skyblue;
+}
+
+.hold {
+  transform: scale(1.5);
+  background: deepskyblue;
+}
+
+.exhale {
+  transform: scale(1);
+  background: lightblue;
+}
+
+
+
+.circle .instruction {
+  position: absolute;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #c77dff; 
+  transition: color 0.5s ease-in-out, transform 1s ease-in-out;
+}
+
+
+.circle.rest .instruction  { color: #9d4edd; }
+.circle.inhale .instruction { color: #c77dff; }
+.circle.hold .instruction   { color: #7b2cbf; }
+.circle.exhale .instruction { color: #b185db; }
+
+button {
+  background: #d8b4fc;      
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;      
+  font-weight: 600;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  color: white;
+}
+button:hover {
+  background: #c084fc;
+  transform: scale(1.05);
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #6a4c93;
+}
