@@ -14,4 +14,5 @@ Language: TypeScript
 Styling: CSS with flexbox and grid layout
 
 link: https://annafijorek.github.io/breath_app_AngularProject/
+
 demo: ![Breath Demo](app_demo.gif)
